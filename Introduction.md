@@ -1,7 +1,8 @@
 # Pytorch Deep Learning
-<img src="./img/logo.png" width="500">
 
-Simple Concepts of Deep Learning and Models that I made.
+<img src="./img/logo.jpg" width="800">
+
+Simple Concepts of Deep Learning and Deep Learning Model codes that I made.
 
 The most of image files are from [PytorchZeroToAll] by Sung Kim.
 
