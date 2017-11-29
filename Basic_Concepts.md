@@ -2,7 +2,7 @@
 ## MSE
 - One of the ways to measure the `loss` of a model.
 - The Acronym for the **Mean Square Error** which is following equation. `y hat` is a prediction of our model, and `y` is a real value. So, it means simply the sum of differences between forecasts and actual values.
-<center><img src="./img/mse.png" width="300"></center>
+<center><img src="./img/mse.png" width="250"></center>
 
 - There are various other loss functions like `BCEloss` for binary loss, and so on.
 
@@ -14,11 +14,11 @@
 - As the training proceeds, we `repeatedly update` the w so that we can find minimizes the loss.
 <center><img src="./img/gradient_descent_algorithm.png" width="500"></center>
 
-- To update the w value, we use follwing equation. `alpha` means `learning rate` which is usually very small number like 0.001, and this also means `The next step is how far from where it is.`
+- To update the w value, we use follwing equation. `alpha` means `learning rate` which is usually very small number like 0.001, and this also means `The next step is how far from where w is now.`  
 
 <center><img src="./img/update.png" width="200"></center>
 
-- By using derivative, We can update the w in this way: if the drivative value(=gradient) is minus then w will be move toward the posivie side, and visa versa.
+- By using derivative, We can update the w in this way: if the drivative value(=gradient) is minus then w will be move toward the posivie side, and visa versa. This kind of update approach is called `Stochastic Gradient Descent Optimization`, or `SGD` for short. There are other more various different Optimizers like Adam, Adamax and so on. 
 
 
 ## Back Propagation
