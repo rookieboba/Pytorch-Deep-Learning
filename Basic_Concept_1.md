@@ -3,8 +3,10 @@
 - When we predict some values, firstly we need a `model` that can actually do predict, and we call the difference with a prediction and an actual value `loss`.
 - For example, if we have a linear model `y = wx`, we call the `w` **weight**. 
 - We often choose the inital value of `w` randomly.
-- **Learning is finding w** that **minimizes the loss.**
-- As the training proceeds, we `repeatedly update` the w so that we can find minimizes the loss.
+- As the training proceeds, we `repeatedly update` this w so that we can find minimizes the loss.
+- Therefore, Learning is **finding** `w` that **minimizes the loss.**
+
+## Optimizer
 <center><img src="./img/gradient_descent_algorithm.png" width="500"></center>
 
 - To update the w value, we use follwing equation. `alpha` means `learning rate` which is usually very small number like 0.001, and this also means `The next step is how far from where w is now.`  
@@ -13,9 +15,10 @@
 
 - By using derivative, We can update the w in this way: if the drivative value(=gradient) is minus then w will be move toward the posivie side, and visa versa. This kind of update approach is called `Stochastic Gradient Descent Optimization`, or `SGD` for short. There are other more various different Optimizers like Adam, Adamax and so on. 
 
-## MSE
-- One of ways to measure the `loss` of a model.
-- The Acronym for the **Mean Square Error** which is following equation. `y hat` is a prediction of our model, and `y` is a real value. So, it means simply the sum of differences between forecasts and actual values.
+## Loss function
+- To explain `loss function`, let's take an easy loss function as an example.
+- MSE is an one of ways to measure the `loss` of a model.
+- The Acronym for the **Mean Square Error** which is following equation. `y hat` is a prediction of our model, and `y` is a real value. So, it means simply the sum of **differences between forecasts and actual values.**
 <center><img src="./img/mse.png" width="250"></center>
 
 - There are various other loss functions like `BCEloss` for binary loss, and so on.
