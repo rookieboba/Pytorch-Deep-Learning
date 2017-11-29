@@ -1,6 +1,6 @@
 
 ## Learning
-- For example, in the linear model, we call a `w` weight. `ex) y = wx`
+- For example, if we have a linear model `y = wx`, we call the `w` **weight**. 
 - We often choose the inital value of `w` randomly.
 - When we predict, we call the difference with a prediction and an actual value `loss`.
 - Learning is finding `w` that **minimizes the loss.**
