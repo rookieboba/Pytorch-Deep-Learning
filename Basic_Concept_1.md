@@ -34,7 +34,7 @@
 <center><img src="./img/backward.png" width="500"></center>
 
 - By using [Chain Rule], we can calculate the derivative of w, step by step. 
-- In this example, s was -1, so, the local derative of `square gate` is `-2` <img src="./img/chain_rule1.png" width="100">, then -2 is passed to the `- gate` as loss. In the `- gate`, y was constant value and y hat was 1, so the derivative is `-2` an the `- gate`. <img src="./img/chain_rule2.png" width="250"> In this way, the derivative of w becomes `-2`. 
+- In this example, s was -1, so, the local derative of `square gate` is `-2` <img src="./img/chain_rule1.png" width="120">, then -2 is passed to the `- gate` as loss. In the `- gate`, y was constant value and y hat was 1, so the derivative is `-2` an the `- gate`. <img src="./img/chain_rule2.png" width="250"> In this way, the derivative of w becomes `-2`. 
 
 
 
