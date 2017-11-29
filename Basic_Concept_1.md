@@ -1,9 +1,9 @@
 
 ## Learning
+- When we predict some values, firstly we need a `model` that can actually do predict, and we call the difference with a prediction and an actual value `loss`.
 - For example, if we have a linear model `y = wx`, we call the `w` **weight**. 
 - We often choose the inital value of `w` randomly.
-- When we predict, we call the difference with a prediction and an actual value `loss`.
-- Learning is finding `w` that **minimizes the loss.**
+- **Learning is finding w** that **minimizes the loss.**
 - As the training proceeds, we `repeatedly update` the w so that we can find minimizes the loss.
 <center><img src="./img/gradient_descent_algorithm.png" width="500"></center>
 
