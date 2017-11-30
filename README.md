@@ -4,7 +4,6 @@
 
 * Simple Concepts of Deep Learning and Deep Learning Model codes that I made.
 
-* The most of image files are from [PytorchZeroToAll] by Sung Kim.
-
+* The most of image files and contents of Basic concept_1, 2 are from [PytorchZeroToAll] by Sung Kim.
 
 [PytorchZeroToAll]:https://www.youtube.com/playlist?list=PLlMkM4tgfjnJ3I-dbhO9JTw7gNty6o_2m&disable_polymer=true
