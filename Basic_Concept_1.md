@@ -18,14 +18,13 @@
 
 - w값을 update시키기 위해서, 우리는 다음과 같은 공식을 씁니다. 여기서 `alpha`가 뜻하는 것은 `learning rate`라고 하는 것인데요, 보통 0.001같은 아주 작은 값이고, 그래서 `다음 학습할 때 쓸 w는 지금 w와 얼마만큼 떨어져있는지`정도를 의미합니다. 
 
-<hr>
-
 - To update the w value, we use follwing equation. `alpha` means `learning rate` which is usually very small number like 0.001, so it means that `How far the next step w is from where now w is.`  
+
+<hr>
 
 <center><img src="./img/update.png" width="200"></center>
 
 - 미분을 이용하여, 만약 미분 결과값이 -인 경우, w는 좀더 양수쪽으로 가게 되고, 반대로는 음수로 가는 방식으로 우리는 w를 update할 수 있습니다. 이런 update 방법을 `Stochastic Gradient Descent` 최적화, 또는 줄여서 `SGD`라고 부릅니다. SGD 이외에 최적화 기법으로 Adam, Adamx 등등 다양한 기법들이 있습니다. 
-<hr> 
 
 - By using derivative, We can update the w in this way: if the drivative value(=gradient) is minus, then w will be move toward the posivie side, and visa versa. This kind of update approach is called `Stochastic Gradient Descent` Optimization, or `SGD` for short. There are other more various different Optimizers like Adam, Adamax and so on. 
 
