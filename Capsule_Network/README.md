@@ -2,7 +2,7 @@
 
 #### Geoffrey E. Hinton, Google Brain, Toronto
 
-- Paper: [Dynamic Routing Between Capsules]
+- [Dynamic Routing Between Capsules]
 - CUDA-enabled PyTorch implementation of the CapsNet architecture
 - Primarily referenced : 
   - [gram-ai/capsule-networks]
